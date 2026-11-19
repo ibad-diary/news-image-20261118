@@ -143,8 +143,8 @@ def main():
     d.text((W // 2, footer_top + 8), data["footer"], font=f_foot,
            fill=MUTED, anchor="ma")
     d.text((W // 2, footer_top + 28),
-           "Sources: Reuters  ·  CNN  ·  TechCrunch  ·  Times of India  ·  "
-           "Jagran Josh  ·  Al Jazeera  ·  WFP  ·  IMD",
+           "Sources: Reuters  ·  AP  ·  PAHO  ·  WHO/UN News  ·  CNN  ·  "
+           "TechCrunch  ·  Times of India  ·  Horizon",
            font=f_foot, fill=MUTED, anchor="ma")
 
     out = os.path.join(HERE, "entry.png")
